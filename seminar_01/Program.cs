@@ -1,4 +1,6 @@
-﻿Console.Write("Введи первое число: ");
+﻿// Первая задача
+
+Console.Write("Введи первое число: ");
 int numberA = Convert.ToInt32(Console.ReadLine());
 
 Console.Write("Введи второе число: ");
@@ -14,9 +16,12 @@ else
 {
 Console.WriteLine("Нет");
 }
+Console.WriteLine();
 
 
-Console.WriteLine("Введи число дня недели: ");
+// Вторая задача
+
+Console.Write("Введи число дня недели: ");
 int numberС = Convert.ToInt32(Console.ReadLine());
 
 if (numberС == 1)
@@ -65,9 +70,13 @@ if (numberС == 7)
 {
   Console.Write("Воскресенье");
 }
+else {
+  Console.Write("Неправильное число");
 }
 }
 }
 }
 }
+}
+// Console.Write("Неправильное число");
 }
